@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  devIndicators: false, // oculta el botón flotante de Next en dev (estorba al grabar)
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
